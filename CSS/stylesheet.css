@@ -1,13 +1,26 @@
 .body {
   font-family: sans-serif;
+  font-size: 10pt;
   background: #ebebeb;
   width:100%;
-  height:100%;
+  height:500px;
+}
+
+h2 {
+  font-size: 13pt;
+}
+
+.Reihe1 {
+  display: inline-block;
+  width: 100%;
+  height: 250px;
+  background: #ebebeb;
 }
 
 .pd {
+  float: left;
   display: inline-block;
-  width: 100%;
+  width: 30%;
 }
 
 .links-pd {
@@ -20,9 +33,15 @@
   width: 90%;
 }
 
+.Bild {
+  float:left;
+  width: 30%;
+}
+
 .sa {
+  float:left;
   display: inline-block;
-  width: 100%;
+  width: 30%;
 }
 
 .links-sa {
@@ -35,9 +54,18 @@
   width: 90%;
 }
 
-.ba {
+.Reihe2 {
   display: inline-block;
   width: 100%;
+  height: 250px;
+  background: #ebebeb;
+}
+
+.ba {
+  float: left;
+  display: inline-block;
+  width: 30%;
+  height: 170px;
 }
 
 .links-ba {
@@ -51,8 +79,10 @@
 }
 
 .pe {
+  float: left;
   display: inline-block;
-  width: 100%;
+  width: 30%;
+  height: 230px;
 }
 
 .links-pe {
@@ -71,8 +101,10 @@
 }
 
 .zs {
+  float: left;
   display: inline-block;
-  width: 100%;
+  width: 30%;
+  height: 170px;
 }
 
 .links-zs {
