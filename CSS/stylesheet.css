@@ -1,4 +1,86 @@
-body {
+.body {
   font-family: sans-serif;
-  background: #DD00FF;
+  background: #ebebeb;
+  width:100%;
+  height:100%;
+}
+
+.pd {
+  display: inline-block;
+  width: 100%;
+}
+
+.links-pd {
+  float:left;
+  width: 10%;
+}
+
+.rechts-pd {
+  float:right;
+  width: 90%;
+}
+
+.sa {
+  display: inline-block;
+  width: 100%;
+}
+
+.links-sa {
+  float:left;
+  width: 10%;
+}
+
+.rechts-sa {
+  float:right;
+  width: 90%;
+}
+
+.ba {
+  display: inline-block;
+  width: 100%;
+}
+
+.links-ba {
+  float:left;
+  width: 10%;
+}
+
+.rechts-ba {
+  float:right;
+  width: 90%;
+}
+
+.pe {
+  display: inline-block;
+  width: 100%;
+}
+
+.links-pe {
+  float:left;
+  width: 12%;
+}
+
+.mitte-pe {
+  float:left;
+  width: 5%;
+}
+
+.rechts-pe {
+  float:right;
+  width: 83%;
+}
+
+.zs {
+  display: inline-block;
+  width: 100%;
+}
+
+.links-zs {
+  float:left;
+  width: 12%;
+}
+
+.rechts-zs {
+  float:right;
+  width: 88%;
 }
